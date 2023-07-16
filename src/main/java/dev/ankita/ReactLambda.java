@@ -9,7 +9,7 @@ import java.util.List;
 public class ReactLambda {
 
     private AmazonSNSClient amazonSNSClient = null;
-    private static String TOPIC_ARN = "arn:aws:sns:ap-southeast-2:548453444712:TestTopic";
+    private static String TOPIC_ARN = "";
 
     public String handleRequest() {
 
