@@ -7,7 +7,7 @@ import com.amazonaws.services.sns.model.ListSubscriptionsResult;
 public class SNSTestJava {
 
     private static AmazonSNSClient amazonSNSClient = null;
-    private static String EMAIL_TOPIC_ARN = "arn:aws:sns:ap-southeast-2:548453444712:TestTopic";
+    private static String EMAIL_TOPIC_ARN = "";
 
     public static void main(String[] args){
         amazonSNSClient = (AmazonSNSClient) AmazonSNSClientBuilder.standard().build();
